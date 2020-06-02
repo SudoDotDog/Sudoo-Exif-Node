@@ -4,5 +4,6 @@
  * @description Index
  */
 
+export { ExifData } from "@sudoo/exif";
 export * from "./node";
 
