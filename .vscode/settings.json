@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "Exif",
+        "OECF",
+        "RMRF",
+        "Splited",
+        "Sudoo",
+        "WMXPY",
+        "clazz",
+        "codecov",
+        "flashpix",
+        "mimetype",
+        "piexifjs",
+        "triforce",
+        "tshook"
+    ],
+    "tslint.configFile": "typescript/tslint.json",
+    "files.eol": "\n"
+}
