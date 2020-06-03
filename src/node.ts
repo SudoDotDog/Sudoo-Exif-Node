@@ -4,8 +4,8 @@
  * @description Exif
  */
 
-import { readBufferFromPath, writeBufferToPath } from "./util";
 import { Exif } from "@sudoo/exif";
+import { readBufferFromPath, writeBufferToPath } from "./util";
 
 export class ExifNode extends Exif {
 
