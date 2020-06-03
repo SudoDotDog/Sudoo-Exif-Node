@@ -1,6 +1,6 @@
 {
   "name": "@sudoo/exif-node",
-  "version": "1.1.0",
+  "version": "2.1.0",
   "description": ":camera: Exif for Node",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
     "@sudoo/io": ">=1.8.0"
   },
   "dependencies": {
-    "@sudoo/exif": "^2.0.1"
+    "@sudoo/exif": "^2.1.0"
   },
   "devDependencies": {
     "@sudoo/geometry": "^1.10.0",
