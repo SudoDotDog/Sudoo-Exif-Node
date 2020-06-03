@@ -5,7 +5,7 @@
  */
 
 import { Exif } from "@sudoo/exif";
-import { readBufferFromPath, writeBufferToPath } from "./util";
+import { readBufferFile, writeBufferFile } from "@sudoo/io";
 
 export class ExifNode extends Exif {
 
@@ -34,7 +34,7 @@ export class ExifNode extends Exif {
 
     public static async loadFromFile(path: string): Promise<ExifNode> {
 
-        const result: Buffer = await readBufferFromPath(path);
+        const result: Buffer = await readBufferFile(path);
         return this.fromBuffer(result);
     }
 
@@ -63,7 +63,7 @@ export class ExifNode extends Exif {
 
     public async saveAsFile(path: string): Promise<void> {
 
-        await writeBufferToPath(path, this.toBuffer());
+        await writeBufferFile(path, this.toBuffer());
         return;
     }
 }
