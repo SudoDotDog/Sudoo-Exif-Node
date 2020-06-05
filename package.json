@@ -1,6 +1,6 @@
 {
   "name": "@sudoo/exif-node",
-  "version": "2.3.2",
+  "version": "2.4.1",
   "description": ":camera: Exif for Node",
   "main": "index.js",
   "repository": {
@@ -25,10 +25,10 @@
     "@sudoo/io": ">=1.8.0"
   },
   "dependencies": {
-    "@sudoo/exif": "^2.3.2"
+    "@sudoo/exif": "^2.4.1"
   },
   "devDependencies": {
-    "@sudoo/geometry": "^1.10.0",
+    "@sudoo/geometry": "^1.12.1",
     "@sudoo/immutable": "^1.3.0",
     "@sudoo/io": "^1.8.0",
     "@sudoo/triforce": "^2.4.1"
