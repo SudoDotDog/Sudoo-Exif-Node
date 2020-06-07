@@ -11,8 +11,10 @@
 
 ```sh
 yarn add @sudoo/exif-node
+yarn add @sudoo/geometry @sudoo/immutable # As peer dependencies
 # or
 npm install @sudoo/exif-node
+npm install @sudoo/geometry @sudoo/immutable --save # As peer dependencies
 ```
 
 ## Reference
