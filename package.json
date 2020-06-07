@@ -20,12 +20,10 @@
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Exif-Node#readme",
   "peerDependencies": {
-    "@sudoo/geometry": "*",
-    "@sudoo/immutable": "*",
     "@sudoo/io": ">=1.8.0"
   },
   "dependencies": {
-    "@sudoo/exif": "^2.4.1"
+    "@sudoo/exif": "^2.4.2"
   },
   "devDependencies": {
     "@sudoo/geometry": "^1.12.1",
