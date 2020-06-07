@@ -11,10 +11,27 @@
 
 ```sh
 yarn add @sudoo/exif-node
-yarn add @sudoo/geometry @sudoo/immutable # As peer dependencies
+yarn add @sudoo/geometry @sudoo/immutable @sudoo/io # As peer dependencies
 # or
 npm install @sudoo/exif-node
-npm install @sudoo/geometry @sudoo/immutable --save # As peer dependencies
+npm install @sudoo/geometry @sudoo/immutable @sudoo/io --save # As peer dependencies
+```
+
+## Example
+
+```ts
+import { ExifNode } from "../src";
+(async () => {
+    const exif: ExifNode = await ExifNode.loadFromFile('./example.jpg');
+    exif.clear().merge({
+        gpsLocation: {
+            latitude: 41.878113,
+            longitude: -70.6,
+        },
+    });
+    exif.dump();
+    await exif.saveAsFile('./out.jpg');
+})();
 ```
 
 ## Reference
