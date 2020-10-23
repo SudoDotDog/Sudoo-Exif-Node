@@ -20,7 +20,8 @@ npm install @sudoo/geometry @sudoo/immutable @sudoo/io --save # As peer dependen
 ## Example
 
 ```ts
-import { ExifNode } from "@sudoo/exif";
+import { ExifNode } from "@sudoo/exif-node";
+
 (async () => {
     const exif: ExifNode = await ExifNode.loadFromFile('./example.jpg');
     exif.clear().merge({
