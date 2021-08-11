@@ -1,7 +1,7 @@
 {
   "name": "@sudoo/exif-node",
   "version": "2.4.3",
-  "description": ":camera: Exif for Node",
+  "description": "Exif for Node",
   "main": "index.js",
   "repository": {
     "type": "git",

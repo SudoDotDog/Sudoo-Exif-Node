@@ -5,7 +5,7 @@
 [![npm version](https://badge.fury.io/js/%40sudoo%2Fexif-node.svg)](https://www.npmjs.com/package/@sudoo/exif-node)
 [![downloads](https://img.shields.io/npm/dm/@sudoo/exif-node.svg)](https://www.npmjs.com/package/@sudoo/exif-node)
 
-:camera: Exif for Node
+Exif for Node
 
 ## Install
 
