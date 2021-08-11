@@ -19,16 +19,15 @@
     "url": "https://github.com/SudoDotDog/Sudoo-Exif-Node/issues"
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Exif-Node#readme",
-  "peerDependencies": {
-    "@sudoo/io": ">=1.8.0"
-  },
   "dependencies": {
-    "@sudoo/exif": "^2.4.3"
+    "@sudoo/exif": "^2.4.3",
+    "@sudoo/io": "^1.8.0"
   },
   "devDependencies": {
+    "@sudoo/build-utils": "^1.0.0",
     "@sudoo/geometry": "^1.12.1",
     "@sudoo/immutable": "^1.4.0",
-    "@sudoo/io": "^1.8.0",
+    "@sudoo/license": "^1.1.0",
     "@sudoo/triforce": "^2.9.29"
   },
   "nyc": {
